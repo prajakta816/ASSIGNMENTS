@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunbeam Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center; 
+        }
+
+        img.center-img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        iframe {
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="screenshot.png" alt="Screenshot" style="max-width:100%;height:auto;" align="center">
+    
+    <h1 align="center">
+         Sunbeam Registration Form
+    </h1>
+
+    <table>
+
+        <tr>
+            <td rowspan="10" align="center"">
+                <iframe
+                    src="https://www.youtube.com/embed/pY7iOjTGEIA"
+                    frameborder="0"
+                    allowfullscreen>
+                </iframe>
+            </td>
+
+            <td >
+                Name: <input type="text" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Birthdate: <input type="date" required></td>
+        </tr>
+
+        <tr>
+            <td>Email: <input type="email" required></td>
+        </tr>
+
+        <tr>
+            <td>Password: <input type="password" required></td>
+        </tr>
+
+        <tr>
+            <td>Address:
+                <textarea rows="4" cols="35"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Gender:
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </td>
+        </tr>
+
+        <tr>
+            <td>Upload Photo:
+                <input type="file" accept="image/*">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Select Course :
+                <select>
+                    <option value="mern">Mern</option>
+                    <option value="java">Java/option>
+                    <option value="cybersecurity">cybersecurity</option>
+                    <option value="Python">Python</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Select Courses:
+                <input type="checkbox" value="Mern"> Mern
+                <input type="checkbox" value="Java"> Java
+                <input type="checkbox" value="cybersecurity"> cybersecurity
+                <input type="checkbox" value="python"> python
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
+
